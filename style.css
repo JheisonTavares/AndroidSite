@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+}
+header > #first{
+font-family: Arial, Helvetica, sans-serif;
+margin: 0;
+text-shadow: 5px 5px 5px rgba(4, 49, 4, 0.568);
+}
+header{
+    text-align: center;
+    background-image:linear-gradient(to bottom, lightgreen, rgb(0, 53, 0)) ;
+    color: white;
+    padding-top: 14px;
+}
+.menu > a{
+    color: white ;
+    margin-right: 15px;
+    text-align: start;
+    align-items: flex-start;
+    justify-items: left;
+    display: inline  ;
+    padding: 2px;
+    padding-bottom: 0;
+    border-radius: 5px;
+}
+.menu >a:hover{
+    cursor: pointer;
+    background-color: rgba(70, 255, 153, 0.555);
+}
+main{
+    text-align: center;
+    background-color: rgba(125, 248, 125, 0.521);
+    padding: 15px;
+    margin-bottom: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 5px 10px 20px rgba(2, 75, 2, 0.486);
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: rgb(143, 143, 143);
+}
+.robo{
+
+    border-radius: 15px;
+    background-image: linear-gradient(to right, white, transparent);
+}
+section{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tabela{
+    background-color: rgba(0, 194, 129, 0.815);
+    display: inline-block;
+    padding: 20PX;
+    padding-top: 0px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 5px 5px 15px rgba(3, 105, 63, 0.664);
+}
+li{
+    text-align: start;
+}
+ul{
+    display: inline-block;
+    text-align: start;
+    margin-right: 70%;
+    
+}
+iframe{
+    width: 800px;
+    height: 400px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+p{
+    font-weight: bolder;
+}
